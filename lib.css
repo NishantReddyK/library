@@ -1,0 +1,217 @@
+h1{
+    color: aqua;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Bungee Spice', sans-serif;
+    margin-left: 65px;
+}
+body{
+    background-color: black;
+}
+#a{
+    color: chocolate}
+#b{
+    color: chocolate;
+}
+header {  
+    text-align: center;
+    background-color:black;  
+    position: fixed;  
+    left: 0;  
+    right: 0;  
+    top: 0;  
+    height: 40px;  
+    display: flex;  
+    align-items: center;
+    text-align: center; 
+    align-content: center;
+    padding-left: 38.4%;
+    font-size: larger;
+    border-radius: 8px;
+
+    }  
+    header * {  
+    display: inline;  
+    }
+    header li a {
+        color: rgb(245,245,249);
+        text-decoration: none;
+        text-size-adjust: 30px;
+        align-items: center;
+        align-self: center;
+        text-align: center;
+        ruby-align: center;
+        text-shadow: 1.5px 2.5px black;
+    }
+.welcome {
+    text-align: center;
+    font-family: 'Audiowide', sans-serif;
+    margin-right: 50px;
+
+}
+.welcome:hover{
+    transform: scale(2);
+    cursor: pointer;
+}
+
+
+#books {
+    text-align: center;
+    font-family: 'Audiowide', sans-serif;
+    margin-right: 50px;
+}
+#admin{
+    text-align: center;
+    font-family: 'Audiowide', sans-serif;
+}
+#body{
+    width: 50%;
+}
+#body{
+    color: azure;
+    background-color: rgb(66, 64, 62);
+    font-family: 'Audiowide', sans-serif;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 86px;
+}
+#pic1{
+    width: 625px;
+    height: 330px;
+    float: right;
+    border-radius: 10px;
+    margin-right: 37px;
+    margin-top: 39px;
+}
+#pic2{
+    width: 1200px ;
+    height: 1000px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 100px;
+
+}
+#readmore{
+    background-color:grey ;
+    font-family: 'Audiowide', sans-serif;
+    color: white;
+    margin-left: 717px;
+    border-radius: 5px;
+    padding: 2px;
+}
+#slash{
+    color: rgb(66, 64, 62);
+    margin-top: 20px;
+    border-radius: 200px;
+}
+#contact{
+    text-align: center;
+    color: rgb(66, 64, 62);
+    font-family: 'Audiowide', sans-serif ;
+    margin-left: 20px;
+    font-size: 300%;
+}
+#social{
+    height: 160px;
+    width: 270px;
+    margin-bottom: 100px;
+    margin-left: 608px;
+}
+
+#add{
+    font-size: 150%;
+    display: inline-block;
+    width: 10%;
+    color: white;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    padding: 5px;
+}
+#add:hover{
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#gen{
+    padding-bottom: 30px;
+    background-color: aliceblue;
+    margin-top: 5px;
+    width: 60%;
+    margin-left: 20%;
+    background-color: grey;
+    padding: 30px;
+    padding-right: 40px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200%;
+}
+.input{
+    background-color: aliceblue;
+    width: 100%;
+    border-radius: 3px;
+    padding: 5px 5px;
+    border: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#bn{
+   margin-top: 100px;
+   width: 60%;
+   margin-left: 20%;
+   background-color: grey;
+   padding: 30px;
+   padding-right: 40px;
+   border-radius: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 200%;
+}
+#at{
+   width: 60%;
+   margin-left: 20%;
+   background-color: gray;
+   padding: 30px;
+   padding-right: 40px;
+   border-radius: 10px;
+   margin-top: 5px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 200%;
+}
+#bookname{
+    border-radius: 5px;
+}
+#submit{
+    background-color: rgb(105, 207, 232);
+    border-radius: 3px;
+    margin-left: 20%;
+    border-radius: 5px;
+}
+#view{
+    padding-top: 20px;
+}
+#tea{
+    background-color: rgb(211, 210, 215);
+}
+#hehe{
+    background-image: url("lib.jpg.webp") ;
+}
+#Booktable{
+    background-color: bisque;
+    width: 70%;
+    align-content: center;
+    margin-left: 15%;
+    border-radius: 5px;
+}
+#xyz {
+    width: 75% auto;
+    margin-bottom: 150px;
+    margin-top: 150px;
+    margin-left: 90px;
+    margin-right: 90px;
+    background-color: beige;
+    padding-left: 30px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-right: 30px;
+    border-radius: 10px;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="lib.css"/>
+</head>
+<body id="hehe" src="lib.jpg.webp">
+    <header>
+        <nav>
+            <ul>
+                <li class="welcome">
+                    <a href="lib.html"> Welcome  </a>
+                </li>
+                <li id="books">
+                    <a href="books.html">Books </a>
+                </li>
+                <li id="admin">
+                    <a href="admin.html">Admin </a>
+                </li>
+            </ul>
+        </nav>
+
+
+
+    </header>
+    <form d="xyz">
+        <h1>Add A Book</h1>
+    <div id="bn">
+        <label for="bookname" class="label">Book Name :</label>
+        <input type="text" class="input" id="bookname" placeholder="Enter Book Name" name="bookname" required>
+    </div>
+    <div id="at">
+        <label for="author" class="label">Author :</label>
+        <input type="text" class="input" id="author" placeholder="Enter Author Name" name="author" required>
+    </div>
+    <div id="gen">
+        <label>Genre:</label>
+        <input type="radio" id="Fiction" name="gender" value="Fiction" required>
+        <label for="Fiction">Fiction</label>
+        <input type="radio" id="Non Fiction" name="gender" value="Non Fiction" required>
+        <label for="Non Fiction">Non Fiction</label>
+        <input type="radio" id="Biography" name="gender" value="Biography" required>
+        <label for="Biography">Crime</label>
+        <input type="radio" id="Autobiography" name="gender" value="Autobiography" required>
+        <label for="Autobiography">History</label>
+        
+    </div>
+    <div id="ab">
+        <input type="Submit" id="submit" value="ADD +"> 
+    </div>
+    </form>
+    <table class="table" id="Booktable">
+        <thead>
+            <tr>
+                <th scope="col">S No.</th>
+                <th scope="col">Title</th>
+                <th scope="col">Author</th>
+                <th scope="col">Genre</th>
+                <th scope="col">Delete</th>
+            </tr>
+        </thead>
+        <tbody id="tableb"></tbody>
+    </table>
+
+   
+    <script src="new.js"></script>
+
+</body>
+</html>
